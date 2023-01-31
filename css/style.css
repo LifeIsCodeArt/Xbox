@@ -1,3 +1,142 @@
-.header{
-
+*{
+    font-family: 'Finlandica', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+ul{
+    list-style-type: none;
+}
+a,a:focus,a:active,
+a:hover,a:before,a:after{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+.header{
+    width: 1400px;
+    height: 60px;
+    background-color: #373A3C;
+    margin: 0 auto;
+}
+.header__forms{
+    width: 1070px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.search-form{
+    margin: 9px 0 8px 0;
+}
+.search{
+    width: 210px;
+    height: 28px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-right: 55px;
+}
+.search .search__color{
+    font-size: 16px;
+    line-height: 21px;
+    color: #435766;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+.services{
+    width: 687px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 300px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menu__item-link{
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-right: 17px;
+}
+.link-list:after{
+    content: '';
+    position: absolute;
+    top: 32px;
+    width: 12px;
+    height: 7px;
+    margin-left: 8px;
+    background-image: url("../icons/green-arrow.svg");
+}
+.log-in{
+    width: 117px;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.log-in__link:before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 18px;
+    margin-left: -27px;
+    background-image: url("../icons/user.svg");
+}
+.log-in__link:after{
+    content: '';
+    position: absolute;
+    top: 28px;
+    width: 12px;
+    height: 7px;
+    margin-left: 8px;
+    background-image: url("../icons/green-arrow.svg")
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.outer-first-block{
+    width: 1400px;
+    height: 644px;
+    background-image: url("../pics/Star-Wars-Battlefront-II-combat.png");
+}
+.description{
+    height: 215px;
+    width: 390px;
+}
+.description__title{
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF
+}
+.description__subtitle{
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.description__about{
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 12px 0 27px 0;
+    width: 390px;
+}
+.slide{
+    height: 644px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-first-block{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

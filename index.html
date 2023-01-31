@@ -6,34 +6,49 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Xbox Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
  <header class="header">
-     <div class="logo"></div>
      <div class="header__forms">
-         <div class="menu">
-             <div class="menu__item"></div>
-             <div class="menu__item"></div>
-             <div class="menu__item"></div>
-         </div>
+     <div class="logo">
+         <a href="#" class="logo__link"><img src="icons/xbox.png" alt="#"></a>
+     </div>
+     <div class="services">
+         <ul class="menu">
+             <li class="menu__item"><a href="#" class="menu__item-link link-list">Games</a></li>
+             <li class="menu__item"><a href="#" class="menu__item-link link-list">Consoles</a></li>
+             <li class="menu__item"><a href="#" class="menu__item-link">Community</a></li>
+         </ul>
          <div class="search-form">
-             <input type="text" class="search" placeholder="Search">
+             <input type="text" class="search search__color" placeholder="Search">
          </div>
          <div class="log-in">
-             <a href="#" class="log-in__link"></a>
+             <a href="#" class="log-in__link">My XBOX</a>
          </div>
+     </div>
      </div>
  </header>
  <div class="container outer-first-block">
   <div class="inner-container inner-first-block">
-      <div class="description">
-          <div class="desription__title"></div>
-          <div class="desription__subtitle"></div>
-          <div class="desription__about"></div>
-          <button class="btn green"></button>
-          <button class="btn metalic"></button>
+      <div class="slide slide-prev">
+          <img src="icons/icon-next.png" alt="#">
       </div>
+      <div class="description">
+          <div class="description__title">Star Wars</div>
+          <div class="description__subtitle">Battlefront II</div>
+          <div class="description__about"></div>
+
+          <button class="btn green">Watch Trailer</button>
+          <button class="btn metalic">Explore Games</button>
+      </div>
+
+     <div class="slide slide-next">
+         <img src="icons/icon-next.png" alt="#">
+     </div>
   </div>
  </div>
 </body>
