@@ -179,13 +179,13 @@ a:hover,a:before,a:after{
     cursor: pointer;
 }
 .buttons-block-btn{
-    height: 38px;
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
 }
 .btn__green{
     width: 136px;
+    height: 38px;
     margin-right: 10px;
     background-color: #8DD83D;
     box-shadow: 2px 2px 3px 1px rgba(0,0,0,.3);
@@ -208,6 +208,7 @@ a:hover,a:before,a:after{
 }
 .btn__metalic{
     width: 148px;
+    height: 38px;
     background-color: #686C6F;
     border-right: 2px solid rgba(128, 128, 128, 0.2);
     border-bottom: 2px solid rgba(128, 128, 128, 0.2);
@@ -261,8 +262,6 @@ a:hover,a:before,a:after{
     height: 420px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
     background-color: #FFFFFF;
     border: 1px solid #DB3138;
 }
@@ -270,4 +269,26 @@ a:hover,a:before,a:after{
     display: flex;
     flex-direction: column;
     padding:  22px 21px 27px 21px;
+}
+.process-content__title{
+    font-size: 18px;
+    line-height: 21px;
+    color: #435766;
+}
+.process-content__subtitle{
+    font-size: 24px;
+    line-height: 28px;
+    color: #435766;
+    margin: 13px 0 38px 0;
+}
+.green-process-button{
+    height: 60px;
+    width: 278px;
+    background-color: #8DD83D;
+}
+.proposes-picture{
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
