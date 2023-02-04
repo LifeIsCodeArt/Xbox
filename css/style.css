@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url("../pics/3840x2160-the-mandalorian-star-wars-fanart-4k_1627768121.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 ul{
     list-style-type: none;
 }
@@ -206,6 +211,7 @@ a:hover,a:before,a:after{
     border-bottom: none;
     transition: 0.1ms ease-in-out;
 }
+
 .btn__metalic{
     width: 148px;
     height: 38px;
@@ -263,7 +269,8 @@ a:hover,a:before,a:after{
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    border: 1px solid #DB3138;
+    border: 1px solid #8DD83D;
+    border-radius: 5px;
 }
 .proposes-content{
     display: flex;
@@ -281,14 +288,268 @@ a:hover,a:before,a:after{
     color: #435766;
     margin: 13px 0 38px 0;
 }
-.green-process-button{
-    height: 60px;
-    width: 278px;
-    background-color: #8DD83D;
-}
 .proposes-picture{
     min-height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.process-picture__first{
+    width: 318px;
+}
+.proposes__item:hover .process-picture__first{
+    transition: .7s ease-in-out;
+    width: 350px;
+}
+.green-process-button{
+    height: 60px;
+    width: 278px;
+    background-color: #8DD83D;
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.3);
+    border-right: 2px solid #8DD83D;
+    border-bottom: 2px solid #8DD83D;
+    transition: .4s ease-in-out;
+}
+.green-process-button:hover{
+    box-shadow: 0 0 0 0 rgba(0,0,0,.3);
+    background-color: #00b300;
+    cursor: pointer;
+
+}
+.green-process-button:active{
+    border-top: 2px solid #8DD83D;
+    border-left: 2px solid #8DD83D;
+    border-right: none;
+    border-bottom: none;
+    transition: 0.1ms ease-in-out;
+}
+/* Third Block */
+.outer-third-block{
+    height: 880px;
+    background-image: url("../pics/XXII.jpg");
+    background-color: rgba(23, 23, 23, 0.5);;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.third-block__wrapper{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.carousel__text{
+    text-align: center;
+    margin: 97px 0 27px 0;
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 42px;
+}
+.carousel-select{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 74px;
+}
+.store-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+.store-box__btn{
+    width: 207px;
+    height: 53px;
+    background-color: #686C6F;
+    border-right: 2px solid rgba(128, 128, 128, 0.2);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.3);
+    transition: .4s ease-in-out;
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.store-box__btn:hover{
+    box-shadow: 0 0 0 0 rgba(0,0,0,.3);
+    background-color: #575656;
+    cursor: pointer;
+
+}
+.store-box__btn:active{
+    border-left: 2px solid rgba(128, 128, 128, 0.2);
+    border-top: 2px solid rgba(128, 128, 128, 0.2);
+    border-right: none;
+    border-bottom: none;
+    transition: 0.1s ease all;
+}
+.proposes__item:hover .buttons-block-btn{
+    transition: 0.7s ease all;
+    width: 306px;
+    height: 66px;
+    margin-top: 20px;
+}
+.proposes__item:hover{
+    width: 352px;
+    height: 462px;
+    align-items: center;
+    transition: 0.7s ease all;
+    background-color: #435766;
+}
+
+.proposes__item:hover .process-content__title, .proposes__item:hover .process-content__subtitle{
+    transition: 0.7s ease all;
+    color: #FFFFFF;
+}
+.inner-fourth-block{
+    height: 480px;
+    background-image: url("../pics/Joystics.jpg");
+    filter: sepia(25%);
+}
+.design-lab{
+    height: 221px;
+    width: 500px;
+    padding: 114px 0 145px 166px;
+}
+.design-lab__title{
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.design-lab__subtitle{
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 9px 0 37px 0;
+}
+.lab-buttons{
+
+}
+.lab-btn__metalic{
+    width: 207px;
+    height: 60px;
+    background-color: #686C6F;
+    border:none;
+    border-right: 2px solid rgba(128, 128, 128, 0.2);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.3);
+    transition: .4s ease-in-out;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.lab-btn__metalic:hover{
+    box-shadow: 0 0 0 0 rgba(0,0,0,.3);
+    background-color: #575656;
+    cursor: pointer;
+}
+.lab-btn__metalic:active{
+    border-left: 2px solid rgba(128, 128, 128, 0.2);
+    border-top: 2px solid rgba(128, 128, 128, 0.2);
+    border-right: none;
+    border-bottom: none;
+    transition: 0.1ms ease all;
+}
+.lab-btn__green{
+    width: 278px;
+    height: 60px;
+    background-color: #8DD83D;
+    border: none;
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.3);
+    border-right: 2px solid #8DD83D;
+    border-bottom: 2px solid #8DD83D;
+    transition: .4s ease-in-out;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.lab-btn__green:hover{
+    box-shadow: 0 0 0 0 rgba(0,0,0,.3);
+    background-color: #00b300;
+    cursor: pointer;
+
+}
+.lab-btn__green:active{
+    border-top: 2px solid #8DD83D;
+    border-left: 2px solid #8DD83D;
+    border-right: none;
+    border-bottom: none;
+    transition: 0.1ms ease-in-out;
+}
+.inner-five-block{
+    height: 395px;
+    background: #373A3C;
+}
+.header-items{
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+}
+.section-xbox{
+    height: 157px;
+    text-align: left;
+
+}
+.green__text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+}
+.services-footer{
+    width: 1200px;
+    height: 317px;
+    margin: 0 auto;
+    border-bottom: 1px solid #A7A1A9;
+}
+.section-xbox{
+    margin-right: 250px;
+    color: #FFFFFF;
+
+}
+.section-item{
+    padding-bottom: 29px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.services-sections{
+    display: flex;
+    padding-left: 65px;
+    padding-top: 58px;
+    height: 317px;
+}
+.media-socials{
+    margin-top: 28px;
+}
+.social-twitter{
+    margin: 0 20px;
+}
+.lang-sign{
+    width: 1200px;
+    margin: 19px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-white{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
