@@ -118,10 +118,12 @@
  <div class="container outer-third-block">
      <div class="inner-container inner-third-block">
          <div class="third-block__wrapper"></div>
-         <div class="carousel">
+         <div class="carousel" id="parent">
              <div class="carousel__text">Exclusive games on XBOX</div>
              <div class="carousel-select">
-                 <div class="proposes__item proposes__item-bigger">
+                 <button class="slide-select slide-select__next" id="next"><img class="next-icon" src="icons/green-arrow.svg" alt="#"></button>
+                 <button class="slide-select slide-select__prev" id="prev"><img class="prev-icon" src="icons/green-arrow.svg" alt="#"></button>
+                 <div class="proposes__item active">
                      <div class="proposes-picture">
                          <img src="pics/xbox-one-x.png" alt="#" class="process-picture__first">
                      </div>
@@ -133,12 +135,14 @@
                          </div>
                          <div class="process-content__button">
                              <button class="buttons-block-btn green-process-button">
-                                 See Details
+                                 <a href="#" class="game-1">
+                                     See Details
+                                 </a>
                              </button>
                          </div>
                      </div>
                  </div>
-                 <div class="proposes__item proposes__item-bigger">
+                 <div class="proposes__item">
                      <div class="proposes-picture">
                          <img src="pics/xbox-one-x.png" alt="#" class="process-picture__first">
                      </div>
@@ -155,7 +159,7 @@
                          </div>
                      </div>
                  </div>
-                 <div class="proposes__item proposes__item-bigger">
+                 <div class="proposes__item">
                      <div class="proposes-picture">
                          <img src="pics/xbox-one-x.png" alt="#" class="process-picture__first">
                      </div>
@@ -172,7 +176,7 @@
                          </div>
                      </div>
                  </div>
-                 <div class="proposes__item proposes__item-bigger">
+                 <div class="proposes__item">
                      <div class="proposes-picture">
                          <img src="pics/xbox-one-x.png" alt="#" class="process-picture__first">
                      </div>
@@ -245,5 +249,6 @@
 
      </div>
  </div>
+ <script src="js/script.js"></script>
 </body>
 </html>

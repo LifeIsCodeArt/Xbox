@@ -4,9 +4,9 @@
     padding: 0;
 }
 body{
-    background-image: url("../pics/3840x2160-the-mandalorian-star-wars-fanart-4k_1627768121.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #FFFFFF;
 }
 ul{
     list-style-type: none;
@@ -183,7 +183,7 @@ a:hover,a:before,a:after{
     transition: all 0.7s ease-out;
     cursor: pointer;
 }
-.buttons-block-btn{
+.buttons-block-btn {
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
@@ -271,6 +271,7 @@ a:hover,a:before,a:after{
     background-color: #FFFFFF;
     border: 1px solid #8DD83D;
     border-radius: 5px;
+    cursor: url('../icons/triple.png'), auto;
 }
 .proposes-content{
     display: flex;
@@ -297,10 +298,11 @@ a:hover,a:before,a:after{
 .process-picture__first{
     width: 318px;
 }
-.proposes__item:hover .process-picture__first{
+.proposes__item:hover .process-picture__first, .active .process-picture__first{
     transition: .7s ease-in-out;
     width: 350px;
 }
+
 .green-process-button{
     height: 60px;
     width: 278px;
@@ -362,6 +364,7 @@ a:hover,a:before,a:after{
     display: flex;
     justify-content: space-between;
     margin-bottom: 74px;
+    position: relative;
 }
 .store-box{
     display: flex;
@@ -396,21 +399,23 @@ a:hover,a:before,a:after{
     border-bottom: none;
     transition: 0.1s ease all;
 }
-.proposes__item:hover .buttons-block-btn{
+.proposes__item:hover .buttons-block-btn, .active .buttons-block-btn{
     transition: 0.7s ease all;
     width: 306px;
     height: 66px;
     margin-top: 20px;
+    cursor: url('../icons/pussycat.png'), auto;
 }
-.proposes__item:hover{
+.proposes__item:hover,.active {
     width: 352px;
     height: 462px;
     align-items: center;
     transition: 0.7s ease all;
     background-color: #435766;
+    border-color: #DB3138;
 }
 
-.proposes__item:hover .process-content__title, .proposes__item:hover .process-content__subtitle{
+.proposes__item:hover .process-content__title, .proposes__item:hover .process-content__subtitle, .active .process-content__title, .active .process-content__subtitle{
     transition: 0.7s ease all;
     color: #FFFFFF;
 }
@@ -552,4 +557,28 @@ a:hover,a:before,a:after{
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+}
+
+.slide-select{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: inherit;
+    border: none;
+    cursor: url('../icons/pngegg.png'), auto;
+}
+.slide-select__prev{
+    top: -50px;
+    left: -20px;
+    transform: rotate(0.25turn);
+}
+.slide-select__next{
+    top: -50px;
+    left: 1330px;
+    transform: rotate(0.75turn);
+}
+.prev-icon, .next-icon{
+    width: 20px;
+    height: 10px;
 }
