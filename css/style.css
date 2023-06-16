@@ -271,7 +271,6 @@ a:hover,a:before,a:after{
     background-color: #FFFFFF;
     border: 1px solid #8DD83D;
     border-radius: 5px;
-    cursor: url('../icons/triple.png'), auto;
 }
 .proposes-content{
     display: flex;
@@ -404,7 +403,6 @@ a:hover,a:before,a:after{
     width: 306px;
     height: 66px;
     margin-top: 20px;
-    cursor: url('../icons/pussycat.png'), auto;
 }
 .proposes__item:hover,.active {
     width: 352px;
